@@ -1,15 +1,15 @@
-function Header() {
-    return (
-        <header>
+const Header = () => {
+      return (  
+      <header>
             <h1>Scoreboard</h1>
             <span className="stats">Players: 1</span>
-        </header>
+      </header>
     );
 }
 
 
 
 ReactDOM.render(
-    header,
+    <Header />,
     document.getElementById('root')
 );
